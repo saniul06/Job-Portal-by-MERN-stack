@@ -1,0 +1,7 @@
+.Embed .Header {
+    display: none !important;
+}
+
+table {
+    display: none;
+}

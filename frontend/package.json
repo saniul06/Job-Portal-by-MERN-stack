@@ -1,0 +1,56 @@
+{
+  "name": "jobboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "axios": "^0.21.1",
+    "countries-list": "^2.6.1",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-animated-slider": "^1.1.4",
+    "react-bootstrap": "^1.4.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-image-lightbox": "^5.1.1",
+    "react-instagram-embed": "^3.0.0",
+    "react-js-pagination": "^3.0.3",
+    "react-masonry-css": "^1.0.14",
+    "react-redux": "^7.2.4",
+    "react-rev-slider": "^1.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-scroll": "^1.8.1",
+    "react-slick": "^0.25.2",
+    "react-tag-input": "^6.4.3",
+    "reactstrap": "^8.1.1",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "simple-react-google-maps": "^1.1.2"
+  },
+  "scripts": {
+    "start": " BROWSER='google-chrome-stable' react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:4000"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "upwork-job-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.1",
+    "googleapis": "^39.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
+    "mysql2": "^2.2.5",
+    "nanoid": "^3.1.25",
+    "node-pdo": "^0.0.3",
+    "nodemailer": "^6.6.3",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}
